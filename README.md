@@ -27,3 +27,15 @@ title: Solving P vs NP
 Ideally, HTML reports should just be a fragment of HTML and not have any CSS or `<html>` tags so they will have the same style as the rest of the site.
 
 ## Building the site locally
+
+## Interactive Figures
+
+One solution for interactive figures is to use a plotting backend such as Plotly for saving figures as HTML.
+
+[HTML Plotly plots in Python](https://plotly.com/python/interactive-html-export/)
+
+[HTML Plotly plots in Julia](https://github.com/JuliaPlots/Plots.jl/issues/2664)
+
+Then you can embed the plot in your Markdown/HTML report with
+
+    <embed width="600" height="480" src="plot.html"/>
