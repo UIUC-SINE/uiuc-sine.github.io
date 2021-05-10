@@ -14,7 +14,7 @@ Adding files
 
 Put reports in `reports/[name]/my_report.md` or `reports/[name]/my_report/` for a collection of files.
 
-Reports can be in [Markdown](https://commonmark.org/help/) or HTML, but should include YAML frontmatter at the top if you want them to show up in the reports page.
+Reports can be in [Markdown](https://commonmark.org/help/) or HTML.  They should include a YAML frontmatter at the top of the file if you want them to show up in the reports page.
 
 ```
 ---
@@ -24,3 +24,6 @@ title: Solving P vs NP
 ---
 ```
 
+Ideally, HTML reports should just be a fragment of HTML and not have any CSS or `<html>` tags so they will have the same style as the rest of the site.
+
+## Building the site locally
