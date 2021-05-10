@@ -1,0 +1,12 @@
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+collections:
+  reports:
+
+kramdown:
+  math_engine: null
