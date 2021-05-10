@@ -13,6 +13,9 @@
 - [Solving P vs NP](http://example.com) - ICIP 2020
     - Evan Widloski, Farzad Kamalabadi
     - [Code](http://github.com/UIUC-SINE/mas)
+- [Optimal Measurement Configuration In Computational Diffractive Imaging](http://example.com) - ICIP 2020
+    - Evan Widloski, Ulaʂ Kamacı
+    - [Code](https://github.com/UIUC-SINE/MAS/tree/master/reports/ICIP_2020)
 
 ## People
 <style>
