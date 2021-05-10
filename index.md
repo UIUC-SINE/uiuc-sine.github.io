@@ -1,3 +1,5 @@
+# UIUC SINE
+
 <img src="logo.png" style="margin: auto; display: block; border-radius: 30px;" width="200px">
 
 <nav>

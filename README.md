@@ -10,6 +10,8 @@ Adding files
     git commit -m "added a new report"
     git push
     
+The website takes a few minutes to update, so you may want to consider [building locally](https://github.com/UIUC-SINE/uiuc-sine.github.io#building-the-site-locally).
+    
 ## Adding Reports
 
 Put reports in `reports/[name]/my_report.md` or `reports/[name]/my_report/` for a collection of files.
@@ -27,6 +29,12 @@ title: Solving P vs NP
 Ideally, HTML reports should just be a fragment of HTML and not have any CSS or `<html>` tags so they will have the same style as the rest of the site.
 
 ## Building the site locally
+
+First [Install Jekyll](https://jekyllrb.com/docs/installation/)
+
+Then build and serve
+
+    bundle exec jekyll serve
 
 ## Interactive Figures
 
