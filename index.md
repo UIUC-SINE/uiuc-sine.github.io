@@ -50,10 +50,10 @@
         </figure>
     </a>
 
-    <a href="https://evan.widloski.com">
+    <a href="https://www.helmuthnaumer.com">
         <figure>
-            <img src="https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=73206&s=300&type=portrait"/>
-            <figcaption>Evan Widloski</figcaption>
+            <img src="https://www.helmuthnaumer.com/images/profile.jpg"/>
+            <figcaption>Helmuth Naumer</figcaption>
         </figure>
     </a>
 </div>
