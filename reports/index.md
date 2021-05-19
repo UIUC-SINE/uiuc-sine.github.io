@@ -10,7 +10,7 @@
     {% for page in pages_sorted %}
         {% if page.title %}
         <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
-        {% if page.date %} - {{ page.date }}{% endif %}
+        {% if page.date %}<time>({{ page.date }})</time>{% endif %}
         </li>
         {% endif %}
     {% endfor %}
