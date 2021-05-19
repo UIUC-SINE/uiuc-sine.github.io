@@ -18,34 +18,26 @@
     - [Code](https://github.com/UIUC-SINE/MAS/tree/master/reports/ICIP_2020)
 
 ## People
-<style>
-    .grid {
-        display: grid; 
-        grid-template-columns: auto auto auto;
-        grid-gap: 1ch;
-    }
-    .grid figure {
-        margin: auto;
-    }
-</style>
+
 <div class="grid">
+
     <a href="https://evan.widloski.com">
         <figure>
-            <img src="https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=73206&s=300&type=portrait"/>
+            <img src="/img/evan.png"/>
             <figcaption>Evan Widloski</figcaption>
         </figure>
     </a>
 
     <a href="https://evan.widloski.com">
         <figure>
-            <img src="https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=73206&s=300&type=portrait"/>
+            <img src="/img/evan.png"/>
             <figcaption>Evan Widloski</figcaption>
         </figure>
     </a>
 
     <a href="https://evan.widloski.com">
         <figure>
-            <img src="https://ws.engr.illinois.edu/directory/viewphoto.aspx?id=73206&s=300&type=portrait"/>
+            <img src="/img/evan.png"/>
             <figcaption>Evan Widloski</figcaption>
         </figure>
     </a>
@@ -54,6 +46,51 @@
         <figure>
             <img src="https://www.helmuthnaumer.com/images/profile.jpg"/>
             <figcaption>Helmuth Naumer</figcaption>
+        </figure>
+    </a>
+
+</div>
+
+## Projects
+
+<div class="grid">
+    <a href="projects/visors">
+        <figure>
+            <img src="/img/visors.png"/>
+            <figcaption>VISORS</figcaption>
+            <figcaption class="description">Foo</figcaption>
+        </figure>
+    </a>
+
+    <a href="projects/icon">
+        <figure>
+            <img src="/img/icon.png"/>
+            <figcaption>ICON</figcaption>
+            <figcaption class="description">Foo</figcaption>
+        </figure>
+    </a>
+
+    <a href="projects/icon">
+        <figure>
+            <img src="/img/icon.png"/>
+            <figcaption>ICON</figcaption>
+            <figcaption class="description">Foo</figcaption>
+        </figure>
+    </a>
+
+    <a href="projects/visors">
+        <figure>
+            <img src="/img/visors.png"/>
+            <figcaption>VISORS</figcaption>
+            <figcaption class="description">Foo</figcaption>
+        </figure>
+    </a>
+
+    <a href="projects/visors">
+        <figure>
+            <img src="/img/visors.png"/>
+            <figcaption>VISORS</figcaption>
+            <figcaption class="description">Foo</figcaption>
         </figure>
     </a>
 </div>

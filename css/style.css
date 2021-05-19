@@ -80,11 +80,32 @@ figure img {
 }
 
 figcaption {
-    font-style: italic;
+/*     font-style: italic; */
     text-align: center;
 }
 
 nav {
     display: flex;
     justify-content: space-evenly;
-    margin: 1ch;}
+    margin: 1ch;
+}
+
+
+.grid {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-gap: 1ch;
+}
+.grid figure {
+    margin: auto;
+}
+.grid figure .description {
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+.grid figure .description:hover {
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
