@@ -1,7 +1,7 @@
 ---
-title: Quasi-Monte Carlo Integration
+title: Quasi Montecarlo Integration
+date: 2000-01-01
 author: Helmuth
-date: 2020-03-26
 ---
 
 <!DOCTYPE html>
@@ -155,8 +155,7 @@ foreignObject[data-mjx-xml] {
 </style>
             </head>
             <body>
-              <main><preamble><button class="runallchanged" title="Save and run all changed cells"><span></span></button></preamble><pluto-notebook id="3c3eb6a6-8f1f-11eb-3a2c-3507bd774b73"><pluto-cell class="code_folded " id="19ee4fbc-8e52-11eb-31aa-8139eb985dd0"><pluto-shoulder draggable="true" title="Drag to move cell"><button class="foldcode" title="Show/hide code"><span></span></button></pluto-shoulder><pluto-trafficlight></pluto-trafficlight><button class="add_cell before" title="Add cell"><span></span></button><pluto-output class="rich_output " mime="text/html"><assignee></assignee><div><div class="markdown">
-
+                <main><preamble><button class="runallchanged" title="Save and run all changed cells"><span></span></button></preamble><pluto-notebook id="3c3eb6a6-8f1f-11eb-3a2c-3507bd774b73"><pluto-cell class="code_folded " id="19ee4fbc-8e52-11eb-31aa-8139eb985dd0"><pluto-shoulder draggable="true" title="Drag to move cell"><button class="foldcode" title="Show/hide code"><span></span></button></pluto-shoulder><pluto-trafficlight></pluto-trafficlight><button class="add_cell before" title="Add cell"><span></span></button><pluto-output class="rich_output " mime="text/html"><assignee></assignee><div><div class="markdown"><h1>Quasi-Monte Carlo Integration</h1>
 </div></div></pluto-output><pluto-runarea><button class="runcell" title="Run"><span></span></button><span class="runtime">5.5&nbsp;μs</span></pluto-runarea><button class="add_cell after" title="Add cell"><span></span></button></pluto-cell><pluto-cell class="code_folded " id="af7aac90-8e6d-11eb-1b8a-814c99712c30"><pluto-shoulder draggable="true" title="Drag to move cell"><button class="foldcode" title="Show/hide code"><span></span></button></pluto-shoulder><pluto-trafficlight></pluto-trafficlight><button class="add_cell before" title="Add cell"><span></span></button><pluto-output class="rich_output " mime="text/html"><assignee></assignee><div><div class="markdown"><p>This notebook is primary about the paper "The Mathematical Basis of Monte Carlo and Quasi-Monte Carlo Methods [1]," but contains some other side tangents that I felt were relevant. In particular, there is brief note regarding the efficiency of the trapezoidal rule in certain situations inspired by some lecture notes [2], and the simulations make use of the Sobol sequence, a common quasi-random sequence that does not appear in either of those references. The implementation used is from <a href="https://github.com/stevengj/Sobol.jl">Sobol.jl</a>.</p>
 <p>Finally, Wikipedia has a list of some common low-discrepancy sequences <a href="https://en.wikipedia.org/wiki/Low-discrepancy_sequence">https://en.wikipedia.org/wiki/Low-discrepancy_sequence</a></p>
 </div></div></pluto-output><pluto-runarea><button class="runcell" title="Run"><span></span></button><span class="runtime">8.2&nbsp;μs</span></pluto-runarea><button class="add_cell after" title="Add cell"><span></span></button></pluto-cell><pluto-cell class="code_folded " id="8d9f900e-8f17-11eb-3bfc-253ad52f7cab"><pluto-shoulder draggable="true" title="Drag to move cell"><button class="foldcode" title="Show/hide code"><span></span></button></pluto-shoulder><pluto-trafficlight></pluto-trafficlight><button class="add_cell before" title="Add cell"><span></span></button><pluto-output class="rich_output " mime="text/html"><assignee></assignee><div><div class="markdown"><p>This notebook is really just a reminder that, while Monte Carlo methods are standard in signal processing, it's worth keeping in mind the other deterministic approaches to the same problems.</p>

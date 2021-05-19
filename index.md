@@ -3,8 +3,8 @@
 <img src="logo.png" style="margin: auto; display: block; border-radius: 30px;" width="200px">
 
 <nav>
-<span><a href="https://github.com/uiuc-sine">Github</a></span>
-<span><a href="reports">Reports</a></span>
+    <span><a href="https://github.com/uiuc-sine">Github</a></span>
+    <span><a href="reports">Reports</a></span>
 </nav>
 
 
@@ -16,6 +16,28 @@
 - [Optimal Measurement Configuration In Computational Diffractive Imaging](http://example.com) - ICIP 2020
     - Evan Widloski, Ulaʂ Kamacı
     - [Code](https://github.com/UIUC-SINE/MAS/tree/master/reports/ICIP_2020)
+    
+## Projects
+
+<div class="grid">
+{% for page in site.pages %}
+    {% if page.type == 'project' %}
+    <a href="{{ site.baseurl }}{{ page.url }}">
+        <figure>
+            {% if page.img_absolute %}
+            <img src="{{ page.img }}"/>
+            {% else %}
+            <img src="{{ page.dir }}{{ page.img }}"/>
+            {% endif %}
+            <figcaption>{{ page.title }}</figcaption>
+            {% if page.description %}
+            <figcaption class="description">{{ page.description }}</figcaption>
+            {% endif %}
+        </figure>
+    </a>
+    {% endif %}
+{% endfor %}
+</div>
 
 ## People
 
@@ -49,48 +71,4 @@
         </figure>
     </a>
 
-</div>
-
-## Projects
-
-<div class="grid">
-    <a href="projects/visors">
-        <figure>
-            <img src="/img/visors.png"/>
-            <figcaption>VISORS</figcaption>
-            <figcaption class="description">Foo</figcaption>
-        </figure>
-    </a>
-
-    <a href="projects/icon">
-        <figure>
-            <img src="/img/icon.png"/>
-            <figcaption>ICON</figcaption>
-            <figcaption class="description">Foo</figcaption>
-        </figure>
-    </a>
-
-    <a href="projects/icon">
-        <figure>
-            <img src="/img/icon.png"/>
-            <figcaption>ICON</figcaption>
-            <figcaption class="description">Foo</figcaption>
-        </figure>
-    </a>
-
-    <a href="projects/visors">
-        <figure>
-            <img src="/img/visors.png"/>
-            <figcaption>VISORS</figcaption>
-            <figcaption class="description">Foo</figcaption>
-        </figure>
-    </a>
-
-    <a href="projects/visors">
-        <figure>
-            <img src="/img/visors.png"/>
-            <figcaption>VISORS</figcaption>
-            <figcaption class="description">Foo</figcaption>
-        </figure>
-    </a>
 </div>
