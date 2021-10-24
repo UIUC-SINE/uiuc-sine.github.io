@@ -74,10 +74,10 @@
         </figure>
     </a>
 
-    <a href="https://evan.widloski.com">
+    <a href="https://xiaziyna.github.com">
         <figure>
-            <img src="/img/evan.png"/>
-            <figcaption>Evan Widloski</figcaption>
+            <img src="https://xiaziyna.github.io/idk.jpg"/>
+            <figcaption>Jamila Taaki</figcaption>
         </figure>
     </a>
 
